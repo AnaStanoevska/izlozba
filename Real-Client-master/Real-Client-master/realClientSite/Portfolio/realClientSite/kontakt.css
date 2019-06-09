@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+body {
+    background-color:  #f5f3f3;
+}
+
+.headerLogo {
+    width: 100%;
+    height: 90px;
+    border-bottom: 8px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .ClientLogo {
+        width: 125px;
+        height: 80px;
+        display: flex;
+    }
+
+    .page-nav label, #hamburger {
+        display: none;
+    }
+
+    ul {
+        height: 40px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-between;
+        flex-wrap: wrap;
+        margin: 10px 45px 0px 45px;  
+    }
+
+        a  {
+            text-decoration: none;
+            text-transform:uppercase;
+            font-weight: bold; 
+            font-size: 24px;
+            color: black;
+        }
+
+.heroPage {
+    background-image: url(./bg-pattern.jpg);
+    background-repeat: repeat-x;
+    height: 600px; 
+  }
+
+  h2{
+    font-size: 32px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contact-form{
+    max-width: 500px; 
+    margin: 0 auto;
+    height: 400px;
+    border: 6px solid #31aca1;
+    padding: 20px 20px 70px 20px;
+    background-color:  rgba(246, 244, 244, 0.6);
+  }
+
+  .text {
+      height: 120px;
+      padding: 20px;
+  }
+  
+  input[type=text], textarea {
+    display: block;
+    outline: none;
+    width: 95%;
+    padding: 10px;
+    margin-top: 30px;
+    border: 2px solid #31aca1;
+    font-size: 16px;
+  }
+
+
+  input[type=button]{
+    position: relative;
+    display: block;
+    padding: 15px 15px;
+    background: #31aca1;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+  }
+
+  input[type=button]:hover{
+    color: #FFF;
+  }
+
+  .footer {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+    .newsLetter {
+        text-align: center;
+        margin: 10px;
+    }
+
+        .subscription {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+        }
+
+            .subscribe {
+                width: 240px;
+                height: 25px;
+                border: 1px solid black;
+                text-decoration: none;
+                font-size: 12px;
+                text-align: center;
+                color: black;
+                padding: 2px;
+                box-sizing: border-box;
+                padding: 5px; 
+            }
+
+            .subscribeButton {
+                width: 100px;
+                height: 25px;
+                background: #31aca1;
+                border: 2px solid black;
+                text-align:center;
+                padding: 2px;
+                text-decoration: none;
+                font-size: 12px;
+                text-transform: uppercase;
+                color: black;
+                font-weight: bold;
+                box-sizing: border-box;
+            }
+
+                .copyright {
+                    font-size: 8px;
+                    text-align: center;
+                    padding-top: 20px;
+                }

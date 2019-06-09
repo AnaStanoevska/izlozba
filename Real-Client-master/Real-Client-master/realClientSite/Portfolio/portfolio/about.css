@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+body {
+  background-image: url(./Pcz/background.png);
+  background-repeat: repeat-y;
+  background-size: cover;
+  height: 100vh;
+}
+
+  header {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+
+    .logo {
+      width: 40px;
+      height: 40px;
+      padding-left: 40px;
+      padding-top: 10px;
+    }
+
+    ul {
+      text-decoration: none;
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      font-size: 16px;
+    }
+
+      li a {
+          text-decoration: none;
+          text-transform:uppercase;
+          font-weight: bold; 
+          color: #1b3663;
+          margin-right: 35px;
+        } 
+
+.main-page  {
+    font-weight: 800;
+    font-size: 80px;
+    color: #101C28;
+    margin-left: 100px;
+}
+
+.main-page h1 {
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+.main-page p {
+   color: #1C3664;
+   font-size: 20px;
+   font-weight: 200;
+   margin-left: 13px;
+   margin-top: -20px;
+   float: left;
+}
+
+.main-page p a {
+    color: #1C3664;
+ }
+
+a button {
+    background-color: #FF0066; 
+    border: 1px solid #FF0066;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 240px;
+    margin-left: -610px;
+    cursor: pointer;
+}
+
+.imgMe {
+  float: right;
+  margin-right:11.7%;
+  margin-top: -450px;
+}
+
+.me {
+  width:450px;
+  height: 450px; 
+}
+
+ .iAm {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  color: #1C3664;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 26px;
+  margin-left: 103%;
+  margin-top: -110px;
+  float: left;
+ } 
+
+ .icons {
+   margin-top: 95px;
+   margin-left: 89%;
+ }
+
+ .icons img {
+     width: 14%;
+     height: 14%;
+ }

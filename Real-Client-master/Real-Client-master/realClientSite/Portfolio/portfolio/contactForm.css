@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+body {
+background-image: url(./Pcz/background.png);
+background-repeat: repeat-y;
+background-size: cover;
+height: 100vh;
+}
+
+header {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+  .logo {
+    width: 40px;
+    height: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+  }
+
+  ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 16px;
+  }
+
+    li a {
+        text-decoration: none;
+        text-transform:uppercase;
+        font-weight: bold; 
+        color: #1b3663;
+        margin-right: 35px;
+      } 
+
+      .main-page  {
+        font-weight: 800;
+        font-size: 80px;
+        color: #101C28;
+        margin-left: 100px;
+    }
+    
+    .main-page h1 {
+        text-transform: uppercase;
+        margin-top: 60px;
+    }
+    
+    .main-page p {
+       color: #1C3664;
+       font-size: 22px;
+       font-weight: 200;
+       margin-left: 13px;
+       margin-top: -20px;
+       float: left;
+    }
+
+      .container {
+          color: #FF0066;
+          font-size: 18px;
+      }
+      
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 10px;
+        margin-bottom: 6px;
+        resize: vertical;
+        }
+        
+        input[type=submit] {
+        background-color: #FF0066; 
+        border: 1px solid #FF0066;
+        border-radius: 50px;
+        color: white;
+        padding: 10px 40px;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+        background-color: #333;
+        }
+        
+        .column {
+        float: left;
+        width: 50%;
+        margin-top: 6px;
+        padding: 30px;
+        }
+        
+        .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
+        
+        /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+        .column, input[type=submit] {
+            width: 100%;
+            margin-top: 0;
+        }
+        }
+            
+        @media screen and (max-width: 700px){
+            /* Show Hamburger */
+            .page-nav label {
+              display: inline-block;
+              color: #fff;
+              background: #FF0066;
+              font-style: normal;
+              font-size: 12px;
+              padding: 10px;
+            }
+        
+            /* Break down menu items into vertical */
+            .page-nav ul li {
+              font-size: 12px; 
+            }
+        
+            .page-nav li a {
+                display: block;
+                color:  #F8F8F8;
+                padding: 8px;
+                text-transform: uppercase;
+            }
+          
+            /* Toggle show/hide menu on checkbox click */
+            .page-nav ul {
+              display: none;
+            }
+            .page-nav input:checked ~ ul {
+              display: block;
+            }
+            .main-container .text_img_block {
+                display: none;
+            }
+        
+            .main-container {
+                display: none;
+            }
+        
+            .info-img {
+                display: none;
+            }
+        
+            .what_we_do {
+                display: inline-block;
+                margin-left: auto;
+                margin-right: auto;   
+                
+            }
+        
+            .icon-bar {
+                display: none;
+          }
+        }
+
+        .icons {
+          margin-top: -60px;
+          margin-left: 89%;
+        }
+            
